@@ -1,4 +1,5 @@
 tensorflow==2.7.0
 streamlit==1.10.0
 sastrawi==1.0.1
+nltk==3.6.5
 ```
