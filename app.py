@@ -1,4 +1,4 @@
-
+ %%writefile app.py
 pip install tensorflow
 import streamlit as st
 import numpy as np
