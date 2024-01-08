@@ -17,7 +17,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load your model
-model = load_model('/content/model1 lastt.h5')  # Replace 'your_model.h5' with the actual path to your saved model
+model = load_model('model.h5')  # Replace 'your_model.h5' with the actual path to your saved model
 
 # Streamlit app
 st.title("Text Sentiment Prediction")
