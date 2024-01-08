@@ -2,9 +2,10 @@
 
 import streamlit as st
 import numpy as np
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+import tensorflow as tf
+from tf.keras.models import load_model
+from tf.keras.preprocessing.text import Tokenizer
+from tf.keras.preprocessing.sequence import pad_sequences
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
